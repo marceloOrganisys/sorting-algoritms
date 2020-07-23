@@ -17,6 +17,7 @@ array1 = [3, 5, 8, 9, 2, 5, 0, 4, 5]
 sortedArray = []
 size = array1.length
 count = 0
+console.log('Normal -> ' + array1)
 
 while (count < size) {
     minor = getMin(array1)
@@ -25,11 +26,11 @@ while (count < size) {
     array1.splice(index, 1)
     count++
 }
+ 
+console.log('Sorted -> ' + sortedArray)
 
-console.log(sortedArray)
-
-// the concept is to get the minor value and to move it to another array
+// the concept is to get the minor value and to move it to another array,
 // then you remove this value from the original array
 
-// a ideia é encontrar o menor valor do array e movê-lo para outro array
+// a ideia é encontrar o menor valor do array e movê-lo para outro array,
 // depois o valor movido é removido do array original
