@@ -1,5 +1,4 @@
 # simplest sorting algorithm
-# algoritmo mais simples de ordenação
 
 def getMin(array):
     minor = array[0]
@@ -26,8 +25,4 @@ while count < size:
     
 print('Sorted -> ', sortedArray)
 
-# the concept is to get the minor value and to move it to another array
-# then you remove this value from the original array
-
-# a ideia é encontrar o menor valor do array e movê-lo para outro array
-# depois o valor movido é removido do array original
+# not really optimized
